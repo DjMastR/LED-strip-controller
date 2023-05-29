@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client_program.MainForm">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Client_program.MainForm.SetTimeTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Client_program.MainForm.UpdateProfileDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Client_program.MainForm.AppendMessageLogDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Client_program.MainForm.SetLabelTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ByiBJjhAWGoAACAGxACwEsACKAkUAStDWmBAISBgoAk=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Client_program.CoordinateSetter">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAECAAAACQAAAAIAQAAjkAAABAAA=</HashCode>
+      <FileName>CoordinateSetter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="profileData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Client_program.ProfileManager">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>U5RAT4jAAnAQAiFcFACJEkCKCAgQpSQAwLgCEAEAgOw=</HashCode>
+      <FileName>ProfileManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pd" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.UserControl" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Client_program.Document">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQEAAQAAAAAAAAAAAAIAAAAAAAAAIIAAA=</HashCode>
+      <FileName>Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_program.ProfileData">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAAgAQkCAAAAAAAIAAAAACEAQAAhARQAKAgEA=</HashCode>
+      <FileName>ProfileData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="points" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Client_program.ErrorProcessor">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Client_program.ErrorProcessor.Commands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ErrorProcessor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Client_program.ErrorProcessor.ErrorType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ErrorProcessor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Client_program.ErrorProcessor.Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ErrorProcessor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErrorProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_program.CRC">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAgAAAAAAAAQAAIAAAAAAAAA=</HashCode>
+      <FileName>CRC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_program.App">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAJAAAAAASAAAgAAEAAEiAAACMAA4ABCAAASAQA=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainForm" />
+      <Field Name="theApp" />
+      <Field Name="communicator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Client_program.SerialCommunicator">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAAAAAQADAECABAAAAAQAAQAgAQACAIAAAACE=</HashCode>
+      <FileName>SerialCommunicator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="message" />
+      <Field Name="serCom" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Client_program.Message">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAAAEAAAABAAAAAQAABABAAAQAAAACAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_program.ProfileListElem">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEgABAAAQA=</HashCode>
+      <FileName>ProfileListElem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Client_program.IView" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
